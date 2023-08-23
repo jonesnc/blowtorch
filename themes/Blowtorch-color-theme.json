@@ -20,7 +20,7 @@
         "dropdown.listBackground": "#042327",
         "editor.background": "#072626",
         "editor.findMatchBackground": "#ff69b4", // Search highlight of first match
-        "editor.foreground": "#d3b58d", // default text color
+        "editor.foreground": "#bcb49f", // default text color
         "editor.lineHighlightBackground": "#FFFFFF00",
         "editor.lineHighlightBorder": "#ffffff00",
         "editor.rangeHighlightBackground": "#0000FF",
@@ -97,7 +97,7 @@
                 "storage.type.function.arrow.js",
             ],
             "settings": {
-                "foreground": "#d3b58d",
+                "foreground": "#bcb49f",
             }
         },
         /* ------------ SPECIAL VARIABLES, BUILT-INS, GLOBALS, CONSTANTS ------------ */
@@ -190,7 +190,7 @@
     ],
     "semanticTokenColors": {
         "class.typeHint.builtin": "#b4eeb4", // Type hints for builtin classes
-        "parameter": "#d3b58d", // Make sure all parameters are default color
+        "parameter": "#bcb49f", // Make sure all parameters are default color
 
         /* -------------------------------- Built-ins ------------------------------- */
         "function.builtin": "#c8d4ec",

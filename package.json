@@ -2,7 +2,7 @@
   "name": "blowtorch",
   "displayName": "Blowtorch",
   "description": "A theme based on Jonathan Blow's emacs theme.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "jonesnc",
   "repository": "https://github.com/jonesnc/blowtorch",
   "engines": {
