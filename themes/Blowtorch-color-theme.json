@@ -26,7 +26,7 @@
         "editor.rangeHighlightBackground": "#0000FF",
         "editor.selectionBackground": "#0000FF",
         "editor.selectionForeground": "#e0dede",
-        "editor.selectionHighlightBackground": "#DAA520",
+        "editor.selectionHighlightBackground": "#ff69b4", // Search highlight of all matches
         "editorCursor.background": "#000",
         "editorCursor.foreground": "#86E08F",
         "editorGroup.border": "#052c31",
