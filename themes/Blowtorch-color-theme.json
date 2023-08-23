@@ -98,6 +98,8 @@
                 "meta.object-literal.key.ts",
                 "meta.template.expression.ts",
                 "storage.type.function.arrow.js",
+                "meta.function-call.python", // Python: make sure function calls in outer decorator call are default color
+                "punctuation.definition", // Python: make sure all punctuation used in a decorator call uses default text
             ],
             "settings": {
                 "foreground": "#bcb49f",

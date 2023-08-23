@@ -4,6 +4,10 @@ All notable changes to the "blowtorch" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.13] - 2023-08-23
+
+- Fix colors within a Python decorator call
+
 ## [0.0.12] - 2023-08-23
 
 - Don't highlight operators in Oracle SQL
