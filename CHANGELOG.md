@@ -4,7 +4,11 @@ All notable changes to the "blowtorch" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.9] - 2023-08-02
+## [0.0.10] - 2023-08-23
+
+- Fixed search highlight background color
+
+## [0.0.9] - 2023-08-23
 
 - Changed Special Variable color to make it easier on the eyes, lower constrast
 - Lots of Semantic Highlighting improvements
