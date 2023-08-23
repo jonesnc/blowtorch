@@ -1,0 +1,23 @@
+{
+  "name": "blowtorch",
+  "displayName": "Blowtorch",
+  "description": "A theme based on Jonathan Blow's emacs theme.",
+  "version": "0.0.6",
+  "publisher": "jonesnc",
+  "repository": "https://github.com/jonesnc/blowtorch",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blowtorch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blowtorch-color-theme.json"
+      }
+    ]
+  }
+}

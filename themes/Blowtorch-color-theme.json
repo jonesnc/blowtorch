@@ -1,0 +1,210 @@
+{
+    "name": "blowtorch",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "activityBar.activeBackground": "#b59e7a65",
+        "activityBar.activeBorder": "#B59E7A",
+        "activityBar.background": "#031c1f",
+        "activityBar.border": "#0c141f",
+        "activityBar.foreground": "#d7dae0",
+        "activityBarBadge.background": "#B59E7A",
+        "activityBarBadge.foreground": "#000",
+        "button.background": "#052c31",
+        "button.hoverBackground": "#b59e7a00",
+        "checkbox.border": "#B59E7A",
+        "debugExceptionWidget.border": "#B59E7A",
+        "debugToolBar.border": "#B59E7A",
+        "dropdown.background": "#2A343E",
+        "dropdown.border": "#B59E7A",
+        "dropdown.listBackground": "#042327",
+        "editor.background": "#072626",
+        "editor.findMatchBackground": "#ff69b4", // Search highlight of first match
+        "editor.foreground": "#d3b58d", // default text color
+        "editor.lineHighlightBackground": "#FFFFFF00",
+        "editor.lineHighlightBorder": "#ffffff00",
+        "editor.rangeHighlightBackground": "#0000FF",
+        "editor.selectionBackground": "#0000FF",
+        "editor.selectionForeground": "#e0dede",
+        "editor.selectionHighlightBackground": "#DAA520",
+        "editorCursor.background": "#000",
+        "editorCursor.foreground": "#86E08F",
+        "editorGroup.border": "#052c31",
+        "editorGroup.dropBackground": "#63878a1a",
+        "editorGroupHeader.tabsBackground": "#042327",
+        "editorLineNumber.activeForeground": "#b59E7A",
+        "editorLineNumber.foreground": "#b59e7a65",
+        "editorSuggestWidget.background": "#042327",
+        "editorSuggestWidget.foreground": "#ccc",
+        "editorSuggestWidget.highlightForeground": "#bdb395",
+        "editorSuggestWidget.selectedBackground": "#b59e7a65",
+        "focusBorder": "#FFFFFF00",
+        "input.background": "#2A343E",
+        "input.border": "#B59E7A",
+        "list.activeSelectionBackground": "#B59E7A",
+        "list.dropBackground": "#63878a1a",
+        "list.focusBackground": "#b59e7aa4",
+        "list.highlightForeground": "#bdb395",
+        "list.hoverBackground": "#b59e7a65",
+        "list.inactiveSelectionBackground": "#63878a1a",
+        "menu.border": "#b59e7a8a",
+        "menu.foreground": "#ccc",
+        "menu.selectionBackground": "#b59e7a65",
+        "panel.border": "#b59e7a4b",
+        "panelSection.dropBackground": "#63878af1",
+        "panelTitle.activeForeground": "#bdb395",
+        "panelTitle.inactiveForeground": "#ccc",
+        "peekView.border": "#052c31",
+        "peekViewEditor.background": "#0c141f",
+        "peekViewEditor.matchHighlightBackground": "#63878a8e",
+        "peekViewResult.background": "#0c141f",
+        "peekViewResult.selectionBackground": "#B59E7A",
+        "quickInputList.focusBackground": "#b59e7aa4",
+        "scrollbarSlider.background": "#b59e7aa4",
+        "scrollbarSlider.hoverBackground": "#B59E7A",
+        "sideBar.background": "#031c1f",
+        "sideBar.dropBackground": "#63878af1",
+        "sideBar.foreground": "#CCC",
+        "sideBarSectionHeader.background": "#093136",
+        "sideBarSectionHeader.foreground": "#bdb395",
+        "sideBarTitle.foreground": "#bbbbbb",
+        "statusBar.background": "#B59E7A",
+        "statusBar.border": "#B59E7A",
+        "statusBar.debuggingBorder": "#B59E7A",
+        "statusBar.foreground": "#000",
+        "statusBar.noFolderBackground": "#B59E7A",
+        "tab.activeBackground": "#093136",
+        "tab.activeForeground": "#FFF",
+        "tab.border": "#052c31",
+        "tab.hoverBackground": "#093136",
+        "tab.inactiveBackground": "#042327",
+        "tab.inactiveForeground": "#CCC",
+        "tab.unfocusedActiveBackground": "#b59e7a65",
+        "tab.unfocusedActiveForeground": "#cccccc94",
+        "titleBar.activeBackground": "#031c1f",
+        "titleBar.border": "#052c31",
+        "titleBar.inactiveBackground": "#0c141f",
+        "window.activeBorder": "#09363b",
+    },
+    "tokenColors": [
+        /* ------------------------------ DEFAULT TEXT ------------------------------ */
+        {
+            "scope": [
+                "entity.other.attribute-name.html",
+                "entity.other.inherited-class.python",
+                "meta.object-literal.key.ts",
+                "meta.template.expression.ts",
+                "storage.type.function.arrow.js",
+            ],
+            "settings": {
+                "foreground": "#d3b58d",
+            }
+        },
+        /* ------------ SPECIAL VARIABLES, BUILT-INS, GLOBALS, CONSTANTS ------------ */
+        {
+            "scope": [
+                "meta.definition.method.js",
+                "support.type.builtin.js",
+                "support.type.builtin.ts",
+                "variable.other.block",
+            ],
+            "settings": {
+                "foreground": "#c8d4ec"
+            }
+        },
+        /* -------------------------------- COMMENTS -------------------------------- */
+        {
+            "scope": [
+                "comment",
+                "string.quoted.docstring.multi.python",
+                "storage.type.class.jsdoc",
+            ],
+            "settings": {
+                "foreground": "#3FDF1F"
+            }
+        },
+        /* --------------------------------- STRINGS -------------------------------- */
+        {
+            "scope": [
+                "string",
+            ],
+            "settings": {
+                "foreground": "#0fdfaf"
+            }
+        },
+        /* --------------------------------- NUMBERS -------------------------------- */
+        {
+            "scope": [
+                "constant.numeric",
+                "storage.numeric.hex",
+                "storage.type.number",
+            ],
+            "settings": {
+                "foreground": "#8eedcd"
+            }
+        },
+        /* ------------------ TYPE, MACRO, IMPORTS, DECORATOR CALLS ----------------- */
+        {
+            "scope": [
+                "constant.language.symbol",
+                "entity.name.function.decorator",
+                "entity.name.type.go",
+                "entity.name.type.instance.jsdoc",
+                "keyword.control.from",
+                "keyword.control.import",
+                "meta.function.decorator",
+                "meta.require",
+                "storage.modifier.import",
+                "support.type.primitive.ts",
+            ],
+            "settings": {
+                "foreground": "#b4eeb4"
+            }
+        },
+        /* -------------------------------- KEYWORDS -------------------------------- */
+        {
+            "scope": [
+                "keyword.other.oracle",
+                "keyword.operator.oracle",
+                "keyword.control",
+                "keyword.function",
+                "keyword.operator.logical.python",
+                "keyword.other.import",
+                "keyword.other.sql.oracle",
+                "keyword.struct",
+                "keyword.type",
+                "storage.modifier",
+                "storage.type.class",
+                "storage.type.function",
+                "storage.type",
+                "entity.name.tag.template.html",
+                "entity.name.tag.script",
+                "entity.name.tag.html",
+                "entity.name.tag.style",
+
+            ],
+            "settings": {
+                "foreground": "#e1e1e1"
+            }
+        },
+    ],
+    "semanticTokenColors": {
+        "class.typeHint.builtin": "#b4eeb4", // Type hints for builtin classes
+        "parameter": "#d3b58d", // Make sure all parameters are default color
+
+        /* -------------------------------- Built-ins ------------------------------- */
+        "function.builtin": "#c8d4ec",
+        "function.defaultLibrary": "#c8d4ec",
+        "variable.defaultLibrary": "#c8d4ec",
+        "class.builtin": "#c8d4ec",
+        /* ------------------------------- Decorators ------------------------------- */
+        "function.decorator": "#b4eeb4",
+        "module.decorator": "#b4eeb4",
+        "class.decorator": "#b4eeb4",
+
+        /* -------------------------- Special Python tokens ------------------------- */
+        "selfParameter": "#c8d4ec",
+
+        "type": "#b4eeb4",
+    }
+}
