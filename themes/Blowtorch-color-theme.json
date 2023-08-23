@@ -90,8 +90,11 @@
         /* ------------------------------ DEFAULT TEXT ------------------------------ */
         {
             "scope": [
+                "constant.language.symbol.hashkey", // any hashkey
+                "constant.other.caps",  // so user-defined constants are not highlighted
                 "entity.other.attribute-name.html",
                 "entity.other.inherited-class.python",
+                "keyword.operator.assignment",  // decorator kwargs '='
                 "meta.object-literal.key.ts",
                 "meta.template.expression.ts",
                 "storage.type.function.arrow.js",
@@ -103,13 +106,15 @@
         /* ------------ SPECIAL VARIABLES, BUILT-INS, GLOBALS, CONSTANTS ------------ */
         {
             "scope": [
+                "constant.language.symbol.ruby", // Ruby Symbols
                 "meta.definition.method.js",
                 "support.type.builtin.js",
                 "support.type.builtin.ts",
                 "variable.other.block",
+                "variable.parameter.function", // any function parameter
             ],
             "settings": {
-                "foreground": "#c8d4ec"
+                "foreground": "#afbdc7"
             }
         },
         /* -------------------------------- COMMENTS -------------------------------- */
@@ -132,10 +137,11 @@
                 "foreground": "#2AB78F"
             }
         },
-        /* --------------------------------- NUMBERS -------------------------------- */
+        /* --------------------------- NUMBERS, CONSTANTS --------------------------- */
         {
             "scope": [
                 "constant.numeric",
+                "constant",
                 "storage.numeric.hex",
                 "storage.type.number",
             ],
@@ -146,7 +152,6 @@
         /* ------------------ TYPE, MACRO, IMPORTS, DECORATOR CALLS ----------------- */
         {
             "scope": [
-                "constant.language.symbol",
                 "entity.name.function.decorator",
                 "entity.name.type.go",
                 "entity.name.type.instance.jsdoc",
@@ -155,7 +160,9 @@
                 "meta.function.decorator",
                 "meta.require",
                 "storage.modifier.import",
+                "support.class", // All Classes
                 "support.type.primitive.ts",
+                "variable.other.constant.ruby", // Ruby Objects
             ],
             "settings": {
                 "foreground": "#b4eeb4"
@@ -191,19 +198,28 @@
     "semanticTokenColors": {
         "class.typeHint.builtin": "#b4eeb4", // Type hints for builtin classes
         "parameter": "#bcb49f", // Make sure all parameters are default color
+        "class": "#b4eeb4",
+
+        /* ------------------------------ Declarations ------------------------------ */
+        "function.declaration": "#a4bdc7",
+        "method.declaration": "#a4bdc7",
+        "parameter.declaration": "#a4bdc7",
+        "variable.declaration": "#afbdc7",
 
         /* -------------------------------- Built-ins ------------------------------- */
-        "function.builtin": "#c8d4ec",
-        "function.defaultLibrary": "#c8d4ec",
-        "variable.defaultLibrary": "#c8d4ec",
-        "class.builtin": "#c8d4ec",
+        "builtinConstant.builtin": "#8eedcd",
+        "class.builtin": "#b4eeb4",
+        "function.builtin": "#afbdc7",
+        "function.defaultLibrary": "#afbdc7",
+        "variable.defaultLibrary": "#afbdc7",
+
         /* ------------------------------- Decorators ------------------------------- */
         "function.decorator": "#b4eeb4",
         "module.decorator": "#b4eeb4",
         "class.decorator": "#b4eeb4",
 
         /* -------------------------- Special Python tokens ------------------------- */
-        "selfParameter": "#c8d4ec",
+        "selfParameter": "#afbdc7",
 
         "type": "#b4eeb4",
     }
