@@ -177,7 +177,6 @@
                 "keyword.control",
                 "keyword.function",
                 "keyword.operator.logical.python",
-                "keyword.operator.oracle",
                 "keyword.other.import",  // Imports are white-ish so they don't clash with type imports
                 "keyword.other.oracle",
                 "keyword.other.sql.oracle",

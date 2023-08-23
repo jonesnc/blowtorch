@@ -4,6 +4,10 @@ All notable changes to the "blowtorch" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.12] - 2023-08-23
+
+- Don't highlight operators in Oracle SQL
+
 ## [0.0.11] - 2023-08-23
 
 - 'from' and 'import' are white so they don't clash with type imports. String-based imports still use the green-ish color for the 'require'.
