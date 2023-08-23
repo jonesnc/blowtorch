@@ -120,7 +120,7 @@
                 "storage.type.class.jsdoc",
             ],
             "settings": {
-                "foreground": "#3FDF1F"
+                "foreground": "#40AB40"
             }
         },
         /* --------------------------------- STRINGS -------------------------------- */
@@ -129,7 +129,7 @@
                 "string",
             ],
             "settings": {
-                "foreground": "#0fdfaf"
+                "foreground": "#2AB78F"
             }
         },
         /* --------------------------------- NUMBERS -------------------------------- */

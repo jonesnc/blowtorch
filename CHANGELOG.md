@@ -4,6 +4,11 @@ All notable changes to the "blowtorch" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.8] - 2023-08-23
+
+- Changed String and Comment colors to be easier on the eyes, less contrast
+- New color values taken from one of j_blow's stream VODs
+
 ## [0.0.7] - 2023-08-23
 
 - Make default text easier on the eyes, lower contrast
