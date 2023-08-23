@@ -155,11 +155,8 @@
                 "entity.name.function.decorator",
                 "entity.name.type.go",
                 "entity.name.type.instance.jsdoc",
-                "keyword.control.from",
-                "keyword.control.import",
                 "meta.function.decorator",
                 "meta.require",
-                "storage.modifier.import",
                 "support.class", // All Classes
                 "support.type.primitive.ts",
                 "variable.other.constant.ruby", // Ruby Objects
@@ -171,23 +168,26 @@
         /* -------------------------------- KEYWORDS -------------------------------- */
         {
             "scope": [
-                "keyword.other.oracle",
-                "keyword.operator.oracle",
+                "entity.name.tag.html",
+                "entity.name.tag.script",
+                "entity.name.tag.style",
+                "entity.name.tag.template.html",
+                "keyword.control.from",  // Imports are white-ish so they don't clash with type imports
+                "keyword.control.import",  // Imports are white-ish so they don't clash with type imports
                 "keyword.control",
                 "keyword.function",
                 "keyword.operator.logical.python",
-                "keyword.other.import",
+                "keyword.operator.oracle",
+                "keyword.other.import",  // Imports are white-ish so they don't clash with type imports
+                "keyword.other.oracle",
                 "keyword.other.sql.oracle",
                 "keyword.struct",
                 "keyword.type",
+                "storage.modifier.import",
                 "storage.modifier",
                 "storage.type.class",
                 "storage.type.function",
                 "storage.type",
-                "entity.name.tag.template.html",
-                "entity.name.tag.script",
-                "entity.name.tag.html",
-                "entity.name.tag.style",
 
             ],
             "settings": {
