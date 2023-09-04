@@ -144,6 +144,7 @@
             "scope": [
                 "constant.numeric",
                 "constant",
+                "keyword.constant.bool",
                 "storage.numeric.hex",
                 "storage.type.number",
             ],

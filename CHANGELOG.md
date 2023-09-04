@@ -4,6 +4,10 @@ All notable changes to the "blowtorch" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.16] - 2023-09-03
+
+- Highlight `keyword.constant.bool` properly
+
 ## [0.0.15] - 2023-08-30
 
 - Highlight enums with ![#b4eeb4](https://via.placeholder.com/15/b4eeb4/000000?text=+) `#b4eeb4`
