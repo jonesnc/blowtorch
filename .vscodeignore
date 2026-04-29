@@ -2,3 +2,10 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+.DS_Store
+blowtorch_frames/
+blowtorch_frames.zip
+package-lock.json
+scripts/
+themes/*.j2
+COLORS.md

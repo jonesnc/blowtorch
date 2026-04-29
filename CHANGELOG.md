@@ -4,6 +4,10 @@ All notable changes to the "blowtorch" extension will be documented in this file
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.17] - 2026-04-29
+
+- Match the sidebar and comment colors to the frame-derived theme palette
+
 ## [0.0.16] - 2023-09-03
 
 - Highlight `keyword.constant.bool` properly
@@ -71,4 +75,3 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.1] - 2023-03-05
 
 - Initial release
-
