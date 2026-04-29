@@ -1,0 +1,279 @@
+{# Render this template to themes/Blowtorch-color-theme.json #}
+{% set p = {
+    "accent": "#B59E7A",
+    "accent_00": "#b59e7a00",
+    "accent_4b": "#b59e7a4b",
+    "accent_65": "#b59e7a65",
+    "accent_8a": "#b59e7a8a",
+    "accent_a4": "#b59e7aa4",
+    "active_fg": "#d7dae0",
+    "bg_0": "#031c1f",
+    "bg_1": "#0c141f",
+    "bg_2": "#042327",
+    "bg_3": "#052c31",
+    "bg_4": "#093136",
+    "bg_5": "#2A343E",
+    "bg_6": "#072626",
+    "bg_7": "#103028",
+    "bg_8": "#63878a1a",
+    "bg_9": "#63878a8e",
+    "bg_a": "#63878af1",
+    "black": "#000",
+    "blue": "#0000FF",
+    "builtin": "#afbdc7",
+    "bright": "#e1e1e1",
+    "comment": "#40AB40",
+    "cursor": "#86E08F",
+    "default_fg": "#bcb49f",
+    "editor_bg": "#072626",
+    "editor_line_number_active": "#b59E7A",
+    "dropdown_fg": "#ccc",
+    "inactive_fg": "#cccccc94",
+    "keyword_fg": "#e1e1e1",
+    "line_fg": "#b59e7a65",
+    "muted": "#bdb395",
+    "number": "#8eedcd",
+    "pink": "#ff69b4",
+    "semi_white": "#e0dede",
+    "sidebar_bg": "#072626",
+    "sidebar_fg": "#CCC",
+    "soft_fg": "#bdb395",
+    "string": "#2AB78F",
+    "title_fg": "#bbbbbb",
+    "tab_inactive_fg": "#CCC",
+    "window_active_border": "#09363b",
+    "declaration": "#a4bdc7",
+    "type": "#b4eeb4",
+    "white": "#FFF",
+    "white_00": "#FFFFFF00",
+    "white_a": "#cccccc94",
+} %}
+{
+    "name": "blowtorch",
+    "type": "dark",
+    "semanticHighlighting": true,
+    "colors": {
+        "activityBar.activeBackground": "{{ p.accent_65 }}",
+        "activityBar.activeBorder": "{{ p.accent }}",
+        "activityBar.background": "{{ p.bg_0 }}",
+        "activityBar.border": "{{ p.bg_1 }}",
+        "activityBar.foreground": "{{ p.active_fg }}",
+        "activityBarBadge.background": "{{ p.accent }}",
+        "activityBarBadge.foreground": "{{ p.black }}",
+        "button.background": "{{ p.bg_3 }}",
+        "button.hoverBackground": "{{ p.accent_00 }}",
+        "checkbox.border": "{{ p.accent }}",
+        "debugExceptionWidget.border": "{{ p.accent }}",
+        "debugToolBar.border": "{{ p.accent }}",
+        "dropdown.background": "{{ p.bg_5 }}",
+        "dropdown.border": "{{ p.accent }}",
+        "dropdown.listBackground": "{{ p.bg_2 }}",
+        "editor.background": "{{ p.editor_bg }}",
+        "editor.findMatchBackground": "{{ p.pink }}", // Search highlight of first match
+        "editor.foreground": "{{ p.default_fg }}", // default text color
+        "editor.lineHighlightBackground": "{{ p.white_00 }}",
+        "editor.lineHighlightBorder": "{{ p.white_00 | lower }}",
+        "editor.rangeHighlightBackground": "{{ p.blue }}",
+        "editor.selectionBackground": "{{ p.blue }}",
+        "editor.selectionForeground": "{{ p.semi_white }}",
+        "editor.selectionHighlightBackground": "{{ p.pink }}", // Search highlight of all matches
+        "editorCursor.background": "{{ p.black }}",
+        "editorCursor.foreground": "{{ p.cursor }}",
+        "editorGroup.border": "{{ p.bg_3 }}",
+        "editorGroup.dropBackground": "{{ p.bg_8 }}",
+        "editorGroupHeader.tabsBackground": "{{ p.bg_2 }}",
+        "editorLineNumber.activeForeground": "{{ p.editor_line_number_active }}",
+        "editorLineNumber.foreground": "{{ p.line_fg }}",
+        "editorSuggestWidget.background": "{{ p.bg_2 }}",
+        "editorSuggestWidget.foreground": "{{ p.dropdown_fg }}",
+        "editorSuggestWidget.highlightForeground": "{{ p.soft_fg }}",
+        "editorSuggestWidget.selectedBackground": "{{ p.accent_65 }}",
+        "focusBorder": "{{ p.white_00 }}",
+        "input.background": "{{ p.bg_5 }}",
+        "input.border": "{{ p.accent }}",
+        "list.activeSelectionBackground": "{{ p.accent }}",
+        "list.dropBackground": "{{ p.bg_8 }}",
+        "list.focusBackground": "{{ p.accent_a4 }}",
+        "list.highlightForeground": "{{ p.soft_fg }}",
+        "list.hoverBackground": "{{ p.accent_65 }}",
+        "list.inactiveSelectionBackground": "{{ p.bg_8 }}",
+        "menu.border": "{{ p.accent_8a }}",
+        "menu.foreground": "{{ p.dropdown_fg }}",
+        "menu.selectionBackground": "{{ p.accent_65 }}",
+        "panel.border": "{{ p.accent_4b }}",
+        "panelSection.dropBackground": "{{ p.bg_a }}",
+        "panelTitle.activeForeground": "{{ p.soft_fg }}",
+        "panelTitle.inactiveForeground": "{{ p.dropdown_fg }}",
+        "peekView.border": "{{ p.bg_3 }}",
+        "peekViewEditor.background": "{{ p.bg_1 }}",
+        "peekViewEditor.matchHighlightBackground": "{{ p.bg_9 }}",
+        "peekViewResult.background": "{{ p.bg_1 }}",
+        "peekViewResult.selectionBackground": "{{ p.accent }}",
+        "quickInputList.focusBackground": "{{ p.accent_a4 }}",
+        "scrollbarSlider.background": "{{ p.accent_a4 }}",
+        "scrollbarSlider.hoverBackground": "{{ p.accent }}",
+        "sideBar.background": "{{ p.sidebar_bg }}",
+        "sideBar.dropBackground": "{{ p.bg_a }}",
+        "sideBar.foreground": "{{ p.sidebar_fg }}",
+        "sideBarSectionHeader.background": "{{ p.bg_7 }}",
+        "sideBarSectionHeader.foreground": "{{ p.soft_fg }}",
+        "sideBarTitle.foreground": "{{ p.title_fg }}",
+        "statusBar.background": "{{ p.accent }}",
+        "statusBar.border": "{{ p.accent }}",
+        "statusBar.debuggingBorder": "{{ p.accent }}",
+        "statusBar.foreground": "{{ p.black }}",
+        "statusBar.noFolderBackground": "{{ p.accent }}",
+        "tab.activeBackground": "{{ p.bg_4 }}",
+        "tab.activeForeground": "{{ p.white }}",
+        "tab.border": "{{ p.bg_3 }}",
+        "tab.hoverBackground": "{{ p.bg_4 }}",
+        "tab.inactiveBackground": "{{ p.bg_2 }}",
+        "tab.inactiveForeground": "{{ p.tab_inactive_fg }}",
+        "tab.unfocusedActiveBackground": "{{ p.accent_65 }}",
+        "tab.unfocusedActiveForeground": "{{ p.white_a }}",
+        "titleBar.activeBackground": "{{ p.bg_0 }}",
+        "titleBar.border": "{{ p.bg_3 }}",
+        "titleBar.inactiveBackground": "{{ p.bg_1 }}",
+        "window.activeBorder": "{{ p.window_active_border }}",
+    },
+    "tokenColors": [
+        /* ------------------------------ DEFAULT TEXT ------------------------------ */
+        {
+            "scope": [
+                "constant.language.symbol.hashkey", // any hashkey
+                "constant.other.caps",  // so user-defined constants are not highlighted
+                "entity.other.attribute-name.html",
+                "entity.other.inherited-class.python",
+                "keyword.operator.assignment",  // decorator kwargs '='
+                "meta.object-literal.key.ts",
+                "meta.template.expression.ts",
+                "storage.type.function.arrow.js",
+                "meta.function-call.python", // Python: make sure function calls in outer decorator call are default color
+                "punctuation.definition.list", // Python: make sure list punctuation used in a decorator call uses default text
+            ],
+            "settings": {
+                "foreground": "{{ p.default_fg }}",
+            }
+        },
+        /* ------------ SPECIAL VARIABLES, BUILT-INS, GLOBALS, CONSTANTS ------------ */
+        {
+            "scope": [
+                "constant.language.symbol.ruby", // Ruby Symbols
+                "meta.definition.method.js",
+                "support.type.builtin.js",
+                "support.type.builtin.ts",
+                "variable.other.block",
+                "variable.parameter.function", // any function parameter
+            ],
+            "settings": {
+                "foreground": "{{ p.builtin }}"
+            }
+        },
+        /* -------------------------------- COMMENTS -------------------------------- */
+        {
+            "scope": [
+                "comment",
+                "string.quoted.docstring.multi.python",
+                "storage.type.class.jsdoc",
+            ],
+            "settings": {
+                "foreground": "{{ p.comment }}"
+            }
+        },
+        /* --------------------------------- STRINGS -------------------------------- */
+        {
+            "scope": [
+                "string",
+            ],
+            "settings": {
+                "foreground": "{{ p.string }}"
+            }
+        },
+        /* --------------------------- NUMBERS, CONSTANTS --------------------------- */
+        {
+            "scope": [
+                "constant.numeric",
+                "constant",
+                "keyword.constant.bool",
+                "storage.numeric.hex",
+                "storage.type.number",
+            ],
+            "settings": {
+                "foreground": "{{ p.number }}"
+            }
+        },
+        /* ------------------ TYPE, MACRO, IMPORTS, DECORATOR CALLS ----------------- */
+        {
+            "scope": [
+                "entity.name.function.decorator",
+                "entity.name.type.go",
+                "entity.name.type.instance.jsdoc",
+                "meta.function.decorator",
+                "meta.require",
+                "support.class", // All Classes
+                "support.type.primitive.ts",
+                "variable.other.constant.ruby", // Ruby Objects
+            ],
+            "settings": {
+                "foreground": "{{ p.type }}"
+            }
+        },
+        /* -------------------------------- KEYWORDS -------------------------------- */
+        {
+            "scope": [
+                "entity.name.tag.html",
+                "entity.name.tag.script",
+                "entity.name.tag.style",
+                "entity.name.tag.template.html",
+                "keyword.control.from",  // Imports are white-ish so they don't clash with type imports
+                "keyword.control.import",  // Imports are white-ish so they don't clash with type imports
+                "keyword.control",
+                "keyword.function",
+                "keyword.operator.logical.python",
+                "keyword.other.import",  // Imports are white-ish so they don't clash with type imports
+                "keyword.other.oracle",
+                "keyword.other.sql.oracle",
+                "keyword.struct",
+                "keyword.type",
+                "storage.modifier.import",
+                "storage.modifier",
+                "storage.type.class",
+                "storage.type.function",
+                "storage.type",
+
+            ],
+            "settings": {
+                "foreground": "{{ p.bright }}"
+            }
+        },
+    ],
+    "semanticTokenColors": {
+        "class.typeHint.builtin": "{{ p.type }}", // Type hints for builtin classes
+        "parameter": "{{ p.default_fg }}", // Make sure all parameters are default color
+        "class": "{{ p.type }}",
+
+        /* ------------------------------ Declarations ------------------------------ */
+        "function.declaration": "{{ p.declaration }}",
+        "method.declaration": "{{ p.declaration }}",
+        "parameter.declaration": "{{ p.declaration }}",
+        "variable.declaration": "{{ p.builtin }}",
+
+        /* -------------------------------- Built-ins ------------------------------- */
+        "builtinConstant.builtin": "{{ p.number }}",
+        "class.builtin": "{{ p.type }}",
+        "function.builtin": "{{ p.builtin }}",
+        "function.defaultLibrary": "{{ p.builtin }}",
+        "variable.defaultLibrary": "{{ p.builtin }}",
+
+        /* ------------------------------- Decorators ------------------------------- */
+        "function.decorator": "{{ p.type }}",
+        "module.decorator": "{{ p.type }}",
+        "class.decorator": "{{ p.type }}",
+
+        /* -------------------------- Special Python tokens ------------------------- */
+        "selfParameter": "{{ p.builtin }}",
+
+        "type": "{{ p.type }}",
+        "enum": "{{ p.type }}",
+    }
+}
