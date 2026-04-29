@@ -20,7 +20,7 @@
         "dropdown.listBackground": "#042327",
         "editor.background": "#072626",
         "editor.findMatchBackground": "#ff69b4", // Search highlight of first match
-        "editor.foreground": "#bcb49f", // default text color
+        "editor.foreground": "#B8B0A0", // default text color
         "editor.lineHighlightBackground": "#FFFFFF00",
         "editor.lineHighlightBorder": "#ffffff00",
         "editor.rangeHighlightBackground": "#0000FF",
@@ -102,7 +102,7 @@
                 "punctuation.definition.list", // Python: make sure list punctuation used in a decorator call uses default text
             ],
             "settings": {
-                "foreground": "#bcb49f",
+                "foreground": "#B8B0A0",
             }
         },
         /* ------------ SPECIAL VARIABLES, BUILT-INS, GLOBALS, CONSTANTS ------------ */
@@ -199,7 +199,7 @@
     ],
     "semanticTokenColors": {
         "class.typeHint.builtin": "#b4eeb4", // Type hints for builtin classes
-        "parameter": "#bcb49f", // Make sure all parameters are default color
+        "parameter": "#B8B0A0", // Make sure all parameters are default color
         "class": "#b4eeb4",
 
         /* ------------------------------ Declarations ------------------------------ */
